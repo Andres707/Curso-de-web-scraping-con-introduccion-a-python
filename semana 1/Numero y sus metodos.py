@@ -33,3 +33,7 @@ print(entero+flotante)
 print(flotante*entero)
 # castear entero a string para concatenar texto
 print(str(entero)+Texto)
+print(entero, complejo)
+# entero con float
+print(entero+complejo)
+print(entero*complejo)

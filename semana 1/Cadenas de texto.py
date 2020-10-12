@@ -7,6 +7,7 @@ saludo = 'Hola Mundo'
 # TODO: Metodos de cadenas
 # Strip se encarga de eliminar los caracteres que le demos
 print(saludo.strip('Ho'))
+
 # Count cuenta las veces que el caracter que le demos aparece dentro
 # dentro de la lista
 print(saludo.count('o'))
