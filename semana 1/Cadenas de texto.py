@@ -6,7 +6,7 @@ Cadenas
 saludo = 'Hola Mundo'
 # TODO: Metodos de cadenas
 # Strip se encarga de eliminar los caracteres que le demos
-print(saludo.strip('Ho'))
+print('fff',saludo.strip('Ho'))
 
 # Count cuenta las veces que el caracter que le demos aparece dentro
 # dentro de la lista
@@ -38,6 +38,6 @@ print(saludo.center(20, '-'))
 # .join Une os caracteres que le mandemos opcionalmete puedes darle el caracter que lo separa
 saludo2 ='Hola a todos.'
 saludo2 = saludo2.split()
-print(saludo2)
+print('f',saludo2)
 x= '*'.join(saludo2)
 print(x)

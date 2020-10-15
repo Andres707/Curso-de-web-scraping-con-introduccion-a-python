@@ -9,7 +9,7 @@ numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 5]
 
 # TODO: metodos de lista
 # navegación dentro de la lista
-print(palabras[3])
+print('La palabra en posición 3 "{}"'.format(palabras[3]))
 # [n:n] regresa el rango que este definido
 print(palabras[0:2])
 # cambiar un dato

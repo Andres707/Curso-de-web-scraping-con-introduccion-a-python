@@ -72,3 +72,4 @@ C = [1, 2, 3]
 A = 2
 print('A esta en C: {}'.format(A in C))
 print('A no esta en C: {}'.format(A not in C))
+
