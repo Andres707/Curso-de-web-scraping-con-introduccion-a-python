@@ -25,7 +25,7 @@ class miprimerclase():
         y = self.creacionListas(10)
         z = self.creacionListas(10)
         self.lista(x, 'y')
-        self.lista(y, 'x')
+        self.listca(y, 'x')
         self.lista(z, 'z')
         print(self.lis)
         dicc = self.diccionario(self.lis)

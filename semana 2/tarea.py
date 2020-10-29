@@ -38,7 +38,7 @@ print('Espacios: {}'.format(conteoEspacios(texto)))
 
 print('palabra explicar {}'.format('explicar' in texto))
 
-print('conteo de repeticones {}'.format(texto.count('es')))
+print('conteo de repeticones {}'.format(texto.count('que')))
 
 
 def repeticones(texto, lista):
@@ -53,3 +53,12 @@ def repeticones(texto, lista):
 x = repeticones(texto, lista)
 for i in range(5):
     print(x[i])
+
+def conteoPalabras(cadena):
+    contador = 0
+    for i in range(len(cadena)):
+        if len(cadena[i]) >= 2:
+                contador += 1
+    return contador
+
+print(conteoPalabras(lista))
